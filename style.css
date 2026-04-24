@@ -1,0 +1,67 @@
+body{
+    background-color: #f2f2f2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+header{
+    background-color: #00e5ff;
+    padding: 15px 0;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+nav{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+nav a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #003366;
+    transition: 0.3s;
+}
+.Picture{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    margin: 20px auto;
+    box-shadow: 0 0 25px rgba(0,0,0,0.25);
+}
+h1{
+    margin-top: 10px;
+    font-size: 28px;
+}
+h2{
+    margin: 25px 0 10px;
+    color: #003366;
+}
+p{
+    margin: 10px 0;
+    line-height: 1.6;
+    text-align: center;
+}
+.about-me p{
+    color: #333;
+}
+.card{
+    background: #fafafa;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+.Contacto p{
+    text-align: center;
+    font-weight: bold;
+}
+button{
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: #003366;
+    color: white;
+}
+.foot{
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
